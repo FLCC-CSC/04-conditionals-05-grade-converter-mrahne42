@@ -1,8 +1,8 @@
-# FILE NAME - grade_converter.py
+ # FILE NAME - grade_converter.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Mike Rahne
+# DATE: 10/6/2025 
+# BRIEF DESCRIPTION: My grade_converter submission 
 
 
 
@@ -15,22 +15,29 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-print('===== Grade Converter =====')
+def main():
+    grade_convert()
+def grade_convert():
 
-percent = int(input('Enter a numerical grade (1-100): '))
+    print('===== Grade Converter =====')
+    grade = int(input('Enter a numerical grade (1-100): '))
 
-if percent > 100:
-    print('A+')
-elif percent >= 90:
-    print('A')
-elif percent >= 80:
-    print('B')
-elif percent >= 70:
-    print('C')
-elif percent >= 65:
-    print('D')
-else:
-    print('F')
+    if grade >= 100:
+        print('A+')
+    elif grade >= 90:
+        print('A')
+    elif grade >= 80:
+        print('B')
+    elif grade >= 70:
+        print('C')
+    elif grade >= 65:
+        print('D')
+    else:
+        print('F')
+
+
+
+main()
 
 ########### END YER CODE ABOVE THIS LINE ###########
 
@@ -84,8 +91,8 @@ D
 
 1. What is something you would tell a future student to be careful about when
    doing this lab?
-
-
+# I guess my advice would be to always look at the repo first. I didn't see that the code was already in here (I knew it would be in one of them, as you said - I didn't know it was this one
+# and I originally had the last line as an elif <65, which worked, but I guess this way is easier.
 
 
 
