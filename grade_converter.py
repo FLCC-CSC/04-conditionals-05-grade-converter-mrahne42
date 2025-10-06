@@ -22,7 +22,7 @@ def grade_convert():
     print('===== Grade Converter =====')
     grade = int(input('Enter a numerical grade (1-100): '))
 
-    if grade >= 100:
+    if grade > 100:
         print('A+')
     elif grade >= 90:
         print('A')
